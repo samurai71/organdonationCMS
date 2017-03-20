@@ -1,6 +1,6 @@
 <footer id="footerCon">
     <section class="row">
-      <div class="small-12 large-6 large columns">
+      <div class="small-12 large-7 large columns">
         <h2 class="hide">Footer Nav</h2>
         <div id="footerMenu">
           <ul id="footerLinks">
@@ -11,11 +11,13 @@
             <li><a href="stories.php">Stories</a></li>
             <li>|</li>
             <li><a href="contact.php">Contact Us</a></li>
+            <li>|</li>
+            <li><a href="#">Admin Login</a></li>
           </ul>
         </div>
       </div>
       <div id="contactFooter">
-        <div class="small-12 large-6 columns">
+        <div class="small-12 large-5 columns">
           <ul class="desktop">
             <li>Connect</li>
             <li>|</li>

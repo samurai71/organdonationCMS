@@ -76,8 +76,8 @@
       </div>
       <div class="large-3 columns end stepRed redLink" id="steps2">
         <h3>Follow the Easy-to-Read Directions On the BEADONOR.CA Website</h3>
-        <p>Follow the instructions on the <a href="https://www.beadonor.ca/">BeADonor.ca</a> website and you will be taken to the ServiceOntario page to register your donation decision or check your registration status with the province of Ontario. Remember, you need to be at least 16 years of age.</p>
-        <div class="small-12 columns text-center"><a href="https://www.beadonor.ca/"><img src="images/step2.svg" alt="step2"/></a></div>
+        <p>Follow the instructions on the <a href="https://www.beadonor.ca/" target="_blank">BeADonor.ca</a> website and you will be taken to the ServiceOntario page to register your donation decision or check your registration status with the province of Ontario. Remember, you need to be at least 16 years of age.</p>
+        <div class="small-12 columns text-center"><a href="https://www.beadonor.ca/" target="_blank"><img src="images/step2.svg" alt="step2"/></a></div>
       </div>
     </section>
     <div class="row mobile">
@@ -89,15 +89,15 @@
       <div class="small-10 large-10 columns">
         <div class="small-12 columns step stepHeader redLink">
           <h3>Click ‘Register Now’</h3>
-          <p>Click on the red button labeled 'Register'. You will be taken to the <a href="https://www.beadonor.ca/">BeADonor.ca</a> website for Organ and Tissue Donor Registration. </p>
+          <p>Click on the red button labeled 'Register'. You will be taken to the <a href="https://www.beadonor.ca/" target="_blank">BeADonor.ca</a> website for Organ and Tissue Donor Registration. </p>
         </div>
         <div class="small-12 columns step2 redLink" >
           <h3>Spread the word to save more lives</h3>
-          <p>Once you’ve registered your consent to donate, come back and encourage your friends and family members to do the same. Check out the <a href="stories.html">Stories</a> page to learn more.</p>
+          <p>Once you’ve registered your consent to donate, come back and encourage your friends and family members to do the same. Check out the <a href="stories.php">Stories</a> page to learn more.</p>
         </div>
         <div class="small-12 columns step3 redLink">
           <h3>Follow the Easy-to-Read Directions On the BeADonor.ca Website</h3>
-          <p>Follow the instructions on the <a href="https://www.beadonor.ca/">BeADonor.ca</a> website and you will be taken to the ServiceOntario page to register your donation decision or check your registration status with the province of Ontario. Remember, you need to be at least 16 years of age.</p>
+          <p>Follow the instructions on the <a href="https://www.beadonor.ca/" target="_blank">BeADonor.ca</a> website and you will be taken to the ServiceOntario page to register your donation decision or check your registration status with the province of Ontario. Remember, you need to be at least 16 years of age.</p>
         </div>
       </div>
     </div>
@@ -110,7 +110,7 @@
       </div>
     </section>
     <section class="row">
-      <div class="small-10 small-centered medium-10 large-6 columns"> <a href="https://www.beadonor.ca/">
+      <div class="small-10 small-centered medium-10 large-6 columns"> <a href="https://www.beadonor.ca/" target="_blank">
         <h3 id="registerButton">Register Now</h3>
         </a> </div>
     </section>
@@ -122,13 +122,13 @@
       </div>
     </section>
     <section class="row">
-      <div class="small-12 large-4 large-offset-1 columns text-center whiteLink"> <a href="https://www.services.gov.on.ca/locations/start.do?locale=EN">
+      <div class="small-12 large-4 large-offset-1 columns text-center whiteLink"> <a href="https://www.services.gov.on.ca/locations/start.do?locale=EN" target="_blank">
         <div class="registerAltBut"><img src="images/head.svg" alt="head"/>Register In Person</div>
         </a> </div>
       <div class="small-12 large-2 columns">
         <h2 id="or">Or</h2>
       </div>
-      <div class="small-12 large-4 end columns text-center whiteLink"> <a href="http://www.forms.ssb.gov.on.ca/mbs/ssb/forms/ssbforms.nsf/GetFileAttach/014-3750-84~1/$File/3750-84E.pdf">
+      <div class="small-12 large-4 end columns text-center whiteLink"> <a href="http://www.forms.ssb.gov.on.ca/mbs/ssb/forms/ssbforms.nsf/GetFileAttach/014-3750-84~1/$File/3750-84E.pdf" target="_blank">
         <div class="registerAltBut"><img src="images/mail.svg" alt="mail"/>Register By Mail </div>
         </a> </div>
     </section>
@@ -141,7 +141,7 @@
       </div>
     </section>
     <section class="row">
-      <div class="small-12 large-12 columns text-center whiteLink"> <a href="stories.html">
+      <div class="small-12 large-12 columns text-center whiteLink"> <a href="stories.php">
         <h3>#Heart2Heart</h3>
         </a> </div>
     </section>
@@ -149,8 +149,8 @@
   <section class="row" id="groupIcons">
     <div class="small-4 large-2 large-offset-2 columns">
       <h3 class="hide">Affiliates</h3>
-      <a href="https://www.beadonor.ca/"><img src="images/step2.svg" alt="BeADonor.ca"/></a> </div>
-    <div class="small-4 large-2 large-offset-1 columns"> <a href="http://www.serviceontario.ca/"><img src="images/serviceontario.svg" alt="Service Ontario"/></a> </div>
-    <div class="small-4 large-2 large-offset-1 end columns"> <a href="http://www.giftoflife.on.ca/en/"><img src="images/ontario-trillium.gif" alt="Ontario Trillium"/></a> </div>
+      <a href="https://www.beadonor.ca/" target="_blank"><img src="images/step2.svg" alt="BeADonor.ca"/></a> </div>
+    <div class="small-4 large-2 large-offset-1 columns"> <a href="http://www.serviceontario.ca/" target="_blank"><img src="images/serviceontario.svg" alt="Service Ontario"/></a> </div>
+    <div class="small-4 large-2 large-offset-1 end columns"> <a href="http://www.giftoflife.on.ca/en/" target="_blank"><img src="images/ontario-trillium.gif" alt="Ontario Trillium"/></a> </div>
   </section>
   <?php include "includes/footer.php"; ?>
