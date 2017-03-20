@@ -1,7 +1,7 @@
 <?php
  $pageTitle = "Contact";
   include "includes/header.php";
-  include "includes/nav.php";
+  include "includes/blacknav.php";
 ?>
   
 <!--  <section id="topHeader">

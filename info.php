@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Info";
 include "includes/header.php";
-//include "includes/nav.php";
+include "includes/blacknav.php";
  ?>
 
 
@@ -20,7 +20,7 @@ include "includes/header.php";
 </div>
 
 
-<?php include "includes/nav.php"; ?>
+
 
 
 
