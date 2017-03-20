@@ -12,7 +12,7 @@
             <li>|</li>
             <li><a href="contact.php">Contact Us</a></li>
             <li>|</li>
-            <li><a href="#">Admin Login</a></li>
+            <li><a href="admin/login.php">Admin Login</a></li>
           </ul>
         </div>
       </div>

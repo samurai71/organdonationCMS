@@ -99,7 +99,7 @@
     <h3>Phone</h3>
     <ul>
     <li>General inquiries</li>
-    <li>1-800-263-2833</li>
+    <li><a href="tel:18002632833">1-800-263-2833</a></li>
     <li>416-363-4001 (Toronto)</li>
     </ul>
   	</div>
