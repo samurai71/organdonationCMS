@@ -1,0 +1,36 @@
+.side-nav {
+	background-color: #333333;
+
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+body {
+	background-color: #F8F8FF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.banner {
+	background-color: #333333;
+	padding-bottom: 1em;
+	margin-top: 1em;
+}
+
+
+#loginForm {
+	padding-top: 1em;
+
+}
+
+#loginForm label {
+	color: #ffffff;
+}
+
+.panel {
+	/* background-color: #eb2430; */
+	background-color: #333333;
+}
