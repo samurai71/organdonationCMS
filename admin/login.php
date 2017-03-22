@@ -25,19 +25,7 @@
   </div>
 </form>
 
-    <!-- <form id="loginForm" action="" method="post" class="small-12 medium-4 large-4 end columns">
-      <h3 class="hide">Login Form Container</h3>
-      <fieldset>
-        <h2 class="hide">Login Form</h2>
-        <label for="username">Username:</label>
-        <input type="text" required id="username" name="fullName" size="30" placeholder="Enter your username">
-        <label for="password">Password:</label>
-        <input type="password" required id="password" size="30" placeholder="Enter your password">
-        <div class="text-center">
-          <input id="submit" type="submit" value="Submit">
-        </div>
-      </fieldset>
-    </form> -->
+    
     
 
     <script src="js/vendor/jquery.js"></script>
