@@ -1,5 +1,5 @@
 <div class="fixed sticky">
-  <nav class="top-bar" data-topbar role="navigation">
+  <nav class="top-bar" data-topbar >
     <ul class="title-area">
       <li class="name">
         <h1><a href="../index.php" target="_blank">Heart2Heart</a></h1>
@@ -9,6 +9,7 @@
     </ul>
 
     <section class="top-bar-section">
+    <h2 class="hide">Top Bar Navigation</h2>
       <!-- Right Nav Section -->
       <ul class="right">
         <!-- <li><a href="#">Right Button Active</a></li> -->
