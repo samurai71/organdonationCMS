@@ -1,6 +1,6 @@
       <nav id="indexNav">
         <div class="">
-          <div id="logo"><a href="index.html"><img src="images/logo.svg" alt="logo"></a></div>
+          <div id="logo"><a href="index.php"><img src="images/logo.svg" alt="logo"></a></div>
           <h2 class="hide">Mobile Navigation</h2>
           <div class="mobile" id="smallMenu"><img src="images/hamburger.svg" alt="menu"/></div>
         </div>
