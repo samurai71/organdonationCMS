@@ -1,14 +1,19 @@
 <?php
  $pageTitle = "Register";
   include "includes/header.php";
-  include "includes/nav.php";
+  //include "includes/nav.php";
 ?>
+
+<section id="videoCon">
+    <h2 class="hide">Video Container</h2>
+    <div id="videoOverlay">
+    <?php include "includes/nav.php"; ?>
 
 <div id="overlayInfo">
         <section class="row">
           <div class="text-center redLink" id="playHeader">
             <h2>Become A Donor And Give The Gift Of Life!</h2>
-            <p> Click the heart to watch the video or go <a href="info.html">here</a> to learn all about Heart2Heart.</p>
+            <p> Click the heart to watch the video or go <a href="info.php">here</a> to learn all about Heart2Heart.</p>
           </div>
         </section>
         <section class="row">
