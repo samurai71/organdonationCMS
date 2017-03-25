@@ -1,11 +1,11 @@
 <?php 
-	ini_set('display_errrors', 1);
-	error_reporting(E_All);
+	// ini_set('display_errrors', 1);
+	// error_reporting(E_All);
 
 	$ip = $_SERVER["REMOTE_ADDR"];
 	//echo $ip;
 
-	require_once("phpscripts/init.php");
+	require_once("includes/init.php");
 
 	if(isset($_POST['submit'])) {
 		//echo "Congrats, you're a good clicker";

@@ -27,17 +27,21 @@
  <img src="images/logo.svg" alt="Heart2Heart Logo">
  </div>
  </div>
+
+ <?php
+    if(!empty($message)) {echo $message;}
+  ?>
   
     <form id="loginForm" action="login.php" method="post">
   <div class="row panel">
     <div class="large-offset-4 large-4 columns">
       <label>Username:
-        <input type="text" placeholder="Please Enter your username">
+        <input type="text" name="username" placeholder="Please Enter your username">
       </label>
       <label>Password:
-        <input type="password" placeholder="Please Enter your password">
+        <input type="password" name="password" placeholder="Please Enter your password">
       </label>
-        <input id="submit" class="button round" type="submit" value="Submit">
+        <input id="submit" class="button round" name="submit" type="submit" value="Submit">
       <p><a href="#">Forgot password</a></p>
     </div>
   </div>
