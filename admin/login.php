@@ -1,7 +1,25 @@
 <?php 
   $pageTitle = "Login";
   include "includes/admin_header.php";
-  //include "includes/admin_top_nav.php";
+  
+  $ip = $_SERVER["REMOTE_ADDR"];
+
+  require_once("includes/init.php");
+
+  if(isset($_POST['submit'])) {
+    //echo "Congrats, you're a good clicker";
+    $username = trim($_POST['username']); //trim is to take out any spaces from doing a copy and paste
+    $password = trim($_POST['password']);
+
+    if($username != "" && $password != "") {
+      $result = logIn($username, $password, $ip);
+      $message = $result;
+      //echo "All Good!";
+    }else {
+      $message = "Please fill in the required fields";
+    }
+  }
+
  ?>
 <h1 class="hide">Login to Heart2Heart Admin</h1>
  <div class="row banner">
@@ -10,7 +28,7 @@
  </div>
  </div>
   
-    <form id="loginForm">
+    <form id="loginForm" action="login.php" method="post">
   <div class="row panel">
     <div class="large-offset-4 large-4 columns">
       <label>Username:
