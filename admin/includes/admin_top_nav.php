@@ -14,7 +14,7 @@
       <ul class="right">
         <!-- <li><a href="#">Right Button Active</a></li> -->
         <li class="has-dropdown">
-          <a href="#">Hello Mark Landeryou</a>
+          <a href="#">Hello <?php echo $_SESSION['users_name']; ?></a>
           <ul class="dropdown">
             <li><a href="#">Edit My Profile</a></li>
             <li><a href="includes/caller.php?caller_id=logout">Log Out</a></li>
