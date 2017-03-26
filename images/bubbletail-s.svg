@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="33 27 292 172" style="enable-background:new 33 27 292 172;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#EC202F;}
+	.st2{fill:#EC202F;}
+</style>
+<g id="tail" class="st0">
+	<polygon class="st1" points="143,27 42,174 325,27 	"/>
+</g>
+<g id="tail_shadow">
+	<g>
+		
+			<image style="overflow:visible;opacity:0.75;" width="313" height="177" xlink:href="ECE52DB0.png"  transform="matrix(1 0 0 1 33 18)">
+		</image>
+		<g>
+			<polygon class="st2" points="143,27 42,174 325,27 			"/>
+		</g>
+	</g>
+</g>
+</svg>

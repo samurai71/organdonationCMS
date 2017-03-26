@@ -1,4 +1,5 @@
-var dynamicContent = {
+///Information Storage For Organ Diagram
+var organInfo = {
 		heart: {
 			text : "The heart is one of the most important organs in the body. This organ pumps blood throughout the body providing necessary nutrients and cycling out of harmful waste.",
 
@@ -6,13 +7,13 @@ var dynamicContent = {
 		},
 
 		liver : {
-			text : "Liver Info.",
+			text : "The liver is one of the largest organs in the body.  It has multitude of functions including: filtering out toxins from blood, producing digestive liquid and storing energy in the form of a sugar called glycogen.",
 
 			headline : "Liver"
 		},
 
-		intestine : {
-			text : "The small intestine is a long, highly convoluted tube in the digestive system that absorbs about 90% of the nutrients from the food we eat.",
+		intestines : {
+			text : "The small intestine is a long, highly intricate tube in the digestive system that absorbs about 90% of the nutrients from the food we eat.",
 
 			headline : "Small Intestines"
 		},
@@ -37,14 +38,14 @@ var dynamicContent = {
 			headline : "Lungs"	
 			},
 				
-			tissue : {
-			text : "Tissue Info.",
+			bone : {
+			text : "Made from living tissue, bones are the framework of the body. Bones protect our organs and systems from harm.",
 
-			headline : "Tissue"	
+			headline : "Bones"	
 			},
 			
 		eyes : {
-			text : "Eyes capture light and images, allowing us to see the world around us. Without eyes we lose an important part of existence.",
+			text : "Eyes capture light, images and movement and send that information to the brain. Eyes allow us to see the world and what's happening around us.",
 
 			headline : "Eyes"	
 			}		
