@@ -34,3 +34,7 @@ body {
 	/* background-color: #eb2430; */
 	background-color: #333333;
 }
+
+.userTable {
+	width: 100%;
+}
