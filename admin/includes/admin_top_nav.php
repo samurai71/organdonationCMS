@@ -17,7 +17,7 @@
           <a href="#">Hello Mark Landeryou</a>
           <ul class="dropdown">
             <li><a href="#">Edit My Profile</a></li>
-            <li><a href="#">Log Out</a></li>
+            <li><a href="includes/caller.php?caller_id=logout">Log Out</a></li>
           </ul>
         </li>
       </ul>

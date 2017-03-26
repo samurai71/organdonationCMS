@@ -65,7 +65,7 @@
     if(!empty($message)) {echo $message;}
   ?>
   
-    <form id="loginForm" action="login.php" method="post">
+    <form id="loginForm" action="admin_login.php" method="post">
   <div class="row panel">
     <div class="large-offset-4 large-4 columns">
       <label>Username:

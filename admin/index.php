@@ -3,6 +3,7 @@
   include "includes/admin_header.php";
   include "includes/admin_top_nav.php";
   include "includes/admin_side_nav.php";
+  //confirm_logged_in();
  ?>
 
   <section>
