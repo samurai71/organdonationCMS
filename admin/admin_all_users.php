@@ -7,6 +7,8 @@
  ?>
 
  <?php 
+    $tbl = "tbl_user";
+    $getUsers = getAll($tbl);
   ?>
  <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
@@ -81,6 +83,41 @@
     <div class="row">
       <div class="medium -10 large-10 columns">
         <h1>All Users</h1>
+         <ul><?php
+    if(!is_string($getUsers)) {
+      while($row = mysqli_fetch_array($getUsers)) {
+        echo "<li>";
+        echo "<p>{$row['user_fname']}</p>";
+        echo "<p>{$row['user_lname']}</p>";
+        echo "<p>{$row['user_name']}</p>";
+        echo "<p>{$row['user_email']}</p>";
+        echo "<br><br>";
+        echo "</li>";
+      }
+    }else{
+      echo "<p>{$getUsers}</p>";
+    }
+  
+  
+  ?></ul> 
+    <table role="grid">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Content Goes Here</td>
+          <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+          <td>Content Goes Here</td>
+          <td><a href="#">Edit User</a></td>
+        </tr>
+      </tbody>
+    </table>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam impedit ut fugit nihil adipisci, ipsam quibusdam incidunt voluptas, nostrum consequatur quo praesentium officiis, aspernatur provident. Soluta sapiente dignissimos provident doloribus.</p>
         <p>Laboriosam vel aperiam, consequatur reprehenderit ad exercitationem quibusdam sequi alias ipsum adipisci. Debitis, ad iste assumenda consequuntur dicta aspernatur repellendus hic architecto unde corporis voluptate. Vitae aliquid, corrupti numquam laboriosam.</p>
         <p>Ut soluta maiores eos ullam amet alias cum, non pariatur accusantium quasi tempora, dicta? Assumenda ullam cum dolorem quibusdam eaque natus numquam, voluptas officia eum minus ad pariatur ab quae.</p>
