@@ -13,7 +13,7 @@
 		if ($userquery) {
 			redirect_to("index.php");
 		}else {
-			$message = "Your hiring practices have failed you, we can not keep this individual";
+			$message = "Something went wrong their is an error";
 			return $message;
 		}
 
