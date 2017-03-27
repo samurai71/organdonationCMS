@@ -45,6 +45,8 @@
     </section>
   </footer>
 </div>
+<script src="js/diagram.js"></script>
+<script src="js/diagramContent.js"></script>
 <script src="js/vendor/jquery.min.js"></script> 
 <script src="js/vendor/what-input.min.js"></script> 
 <script src="js/foundation.min.js"></script> 
