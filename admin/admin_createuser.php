@@ -21,8 +21,9 @@
 
 
 
-		//mysqli_close($link);
+		mysqli_close($link);
 	}
+	
 
 	
 	if(isset($_POST['submit'])) {
