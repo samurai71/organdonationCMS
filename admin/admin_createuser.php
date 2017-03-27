@@ -70,6 +70,8 @@
 		<input type="text" name="username" value="<?php if(!empty($username)){echo $username;}?>">
 		<label>Password:</label>
 		<input type="password" name="password" value="<?php if(!empty($password)){echo $password;}?>">
+		<label>Email:</label>
+		<input type="text" name="email" value="">
 		<select name="lvllist">
 			<option value="">Please select a user level...</option>
 			<option value="2">Web Admin</option>
