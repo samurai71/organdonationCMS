@@ -50,13 +50,6 @@
 
 ?>
 
-<!-- <!doctype html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Create New User</title>
-</head>
-<body> -->
 	<section>
 	<div class="row">
 	<div class="medium-10 large-10 columns">
