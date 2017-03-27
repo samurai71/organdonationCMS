@@ -32,13 +32,14 @@
 		$lname = trim($_POST['lname']);
 		$username = trim($_POST['username']);
 		$password = trim($_POST['password']);
+		$email = trim($_POST['email']);
 	    $level = $_POST['lvllist'];
 		if(empty($level)) {
 			$message ="Please select a user level.";
 
 		}else {
 			//echo "all good...";
-			$results = createUser($fname, $lname, $username, $password, $level);
+			$results = createUser($fname, $lname, $username, $password, $email, $level);
 			$message = $results;
 		}
 
@@ -71,7 +72,7 @@
 		<label>Password:</label>
 		<input type="password" name="password" value="<?php if(!empty($password)){echo $password;}?>">
 		<label>Email:</label>
-		<input type="text" name="email" value="">
+		<input type="text" name="email" value="<?php if(!empty($email)){echo $email;}?>">
 		<select name="lvllist">
 			<option value="">Please select a user level...</option>
 			<option value="2">Web Admin</option>
