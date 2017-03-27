@@ -8,7 +8,7 @@
 		require_once("phpscripts/connect.php");
 		$ip = 0;
 		$userstring = "INSERT INTO tbl_user VALUES(NULL,'{$fname}','{$lname}','{$username}','{$password}','{$level}',{$ip})";
-		//echo $userstring;
+		echo $userstring;
 		$userquery = mysqli_query($link, $userstring);
 		if ($userquery) {
 			redirect_to("index.php");
