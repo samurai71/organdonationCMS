@@ -26,7 +26,7 @@
           <th>Username</th>
           <th>Name</th>
           <th>Email</th>
-          <th>User Level</th>
+          <!-- <th>User Role</th> -->
           <th>Edit</th>
         </tr>
       </thead>
@@ -38,7 +38,7 @@
                   echo "<td>{$row['user_name']}</td>";
                   echo "<td>{$row['user_fname']} {$row['user_lname']}</td>";
                   echo "<td>{$row['user_email']}</td>";
-                  echo "<td>{$row['user_level']}</td>";
+                  //echo "<td>{$row['user_role']}</td>";
                   echo "<td><a href='#'>Edit User</a></td>";
                   echo "</tr>";
                }

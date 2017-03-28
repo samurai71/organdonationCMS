@@ -4,10 +4,11 @@
 	require_once("phpscripts/init.php");
 	confirm_logged_in();
 
-	function createUser($fname, $lname, $username, $password, $level) {
+	function createUser($user_fname, $user_lname, $user_name, $user_pass, $user_role) {
 		require_once("phpscripts/connect.php");
-		$ip = 0;
-		$userstring = "INSERT INTO tbl_user VALUES(NULL,'{$fname}','{$lname}','{$username}','{$password}','{$level}',{$ip})";
+		$user_id = "";
+		$user_ip = 0;
+		$userstring = "INSERT INTO tbl_user VALUES('{$user_id}','{$user_fname}','{$user_lname}','{$user_name}','{$user_pass}','{$user_role}',{$user_ip})";
 		echo $userstring;
 		$userquery = mysqli_query($link, $userstring);
 		if ($userquery) {
@@ -28,18 +29,18 @@
 	
 	if(isset($_POST['submit'])) {
 		//echo "works";
-		$fname = trim($_POST['fname']);
-		$lname = trim($_POST['lname']);
-		$username = trim($_POST['username']);
-		$password = trim($_POST['password']);
-		$email = trim($_POST['email']);
-	    $level = $_POST['lvllist'];
-		if(empty($level)) {
-			$message ="Please select a user level.";
+		$user_fname = trim($_POST['user_fname']);
+		$user_lname = trim($_POST['user_lname']);
+		$user_name = trim($_POST['user_name']);
+		$user_pass = trim($_POST['user_pass']);
+		$user_email = trim($_POST['user_email']);
+	    $user_role = $_POST['lvllist'];
+		if(empty($user_role)) {
+			$message ="Please select a user role.";
 
 		}else {
 			//echo "all good...";
-			$results = createUser($fname, $lname, $username, $password, $email, $level);
+			$results = createUser($user_fname, $user_lname, $user_name, $user_pass, $user_email, $user_role);
 			$message = $results;
 		}
 
@@ -57,17 +58,17 @@
 	<?php if(!empty($message)){echo $message;}?>
 	<form action="admin_createuser.php" method="post">
 		<label>First Name:</label>
-		<input type="text" name="fname" value="<?php if(!empty($fname)){echo $fname;}?>">
+		<input type="text" name="user_fname" value="<?php if(!empty($user_fname)){echo $user_fname;}?>">
 		<label>Last Name:</label>
-		<input type="text" name="lname" value="<?php if(!empty($lname)){echo $lname;}?>">
+		<input type="text" name="user_lname" value="<?php if(!empty($user_lname)){echo $user_lname;}?>">
 		<label>Username:</label>
-		<input type="text" name="username" value="<?php if(!empty($username)){echo $username;}?>">
+		<input type="text" name="user_name" value="<?php if(!empty($user_name)){echo $user_name;}?>">
 		<label>Password:</label>
-		<input type="password" name="password" value="<?php if(!empty($password)){echo $password;}?>">
+		<input type="password" name="user_pass" value="<?php if(!empty($user_pass)){echo $user_pass;}?>">
 		<label>Email:</label>
-		<input type="text" name="email" value="<?php if(!empty($email)){echo $email;}?>">
+		<input type="email" name="user_email" value="<?php if(!empty($user_email)){echo $user_email;}?>">
 		<select name="lvllist">
-			<option value="">Please select a user level...</option>
+			<option value="">Please select a user Role...</option>
 			<option value="2">Web Admin</option>
 			<option value="1">Web Master</option>
 		</select>

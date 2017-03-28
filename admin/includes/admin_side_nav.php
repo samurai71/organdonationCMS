@@ -8,11 +8,11 @@
 	  <li><a href="#">Edit Page</a></li>
 	</ul>
     </li>
-    <li><a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false">Comments</a>
+    <li><a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false">Stories</a>
 	<ul id="drop2" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
-	  <li><a href="#">View Comments</a></li>
-	  <li><a href="#">Pending Comments</a></li>
-	  <li><a href="#">Edit Comments</a></li>
+	  <li><a href="#">View Stories</a></li>
+	  <li><a href="#">Pending Stories</a></li>
+	  <li><a href="#">Edit Stories</a></li>
 	</ul>
     </li>
     <li><a data-dropdown="drop3" aria-controls="drop3" aria-expanded="false">Users</a>
